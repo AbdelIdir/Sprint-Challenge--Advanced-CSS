@@ -4,7 +4,7 @@
 .navholder{ 
        
     max-width:100%;
-    .flexco();
+    .flexro();
    align-content: center;
    background-color: @nav-bg ;
 
@@ -16,6 +16,7 @@
         align-items: center;
         margin: 0 auto;
         width:800px;
+        max-width: 100%;
         padding-bottom: 10px;
    
     
@@ -26,6 +27,10 @@
        .flexro();
        justify-content: space-around;
        width:410px;
+       max-width: 100%;
+       @media @phone {
+           max-width: 360px;
+       }
    }
         .sitename{
             font-size: 3.8rem;
