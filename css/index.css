@@ -204,6 +204,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
 .home .intro .headerpic {
   max-width: 100%;
 }
@@ -258,8 +263,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
-    padding-top: 15px;
-    margin: 20px 2.5%;
+    padding: 15px;
+    margin: 0;
   }
 }
 @media (max-width: 500px) {
@@ -271,6 +276,7 @@ footer {
     margin-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    margin-left: 0px;
   }
 }
 .home .walk .walk-text {
