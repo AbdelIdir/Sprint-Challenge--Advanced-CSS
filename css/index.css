@@ -259,3 +259,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.btn:hover {
+  background-color: #86afd1;
+}
