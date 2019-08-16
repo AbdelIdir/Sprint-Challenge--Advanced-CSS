@@ -244,6 +244,11 @@ footer {
 .home .visit-planets p {
   margin-top: 13px;
 }
+@media (max-width: 500px) {
+  .home .visit-planets p {
+    padding-bottom: 25px;
+  }
+}
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
@@ -253,6 +258,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
+    padding-top: 15px;
     margin: 20px 2.5%;
   }
 }
@@ -287,7 +293,9 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
+    margin-left: 0px;
     width: 100%;
+    padding-bottom: 20px;
   }
 }
 .home .walk .walk-img img {
