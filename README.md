@@ -34,13 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+-Adaptive web design uses different layout for different screen sizes.
+The layout will mainly depend on tthe screen size.
+So different layouts would have to be designed for these different sizes.
+
+-Responsive websites adapt to the size of the screen no matter what the screen device size is. The layout will be fluid and use CSS to change styles.
+This will enable the page to resize its width and height to adapt and fit different screen sizes and be displayed properly.
+
+
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means the website is designed with a mobile screen size first mainly,and later then adapted to tablet or desktop.But the initial design and layout is fully optimized for mobile use first.
+
+Desktop first is the same concept,but instead,designed for desktop use and size ,then later adapteed to mobile and tablet screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+font-size 62.5% in the html tag will allow us to set the rem units more easily,
+and divide by 10 instead of doing more complicated math everytime.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would say preprocessing compiles your css and allows you to write a more optimized version,more responsive,extensive,detailed with less lines.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the concept of escaping,because we can change layout sizes just by changing the units in the variables @mobile @tablet @desktop.
+It's very convenient.
+I would say using rem and em units at the right places is still a bit unclear to me.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -133,3 +156,4 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+

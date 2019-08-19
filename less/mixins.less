@@ -1,1 +1,21 @@
-// Mixins Here
+// turns the element either into a column,or row
+
+.flexco() {
+	display: flex;
+	flex-direction: column;
+
+  }
+  
+.flexro(){
+	display: flex;
+	flex-direction: row;
+}
+
+
+//button styling,centers the text inside
+
+.center-text(@justify,@align){
+	display:flex;
+	justify-content: @justify;
+	align-items: @align;
+}
